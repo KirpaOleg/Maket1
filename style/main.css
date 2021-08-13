@@ -70,7 +70,7 @@ ul {
 }
 .menu__inner {
   background: #FFFFFF;
-  border: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -105,4 +105,98 @@ ul {
 }
 .menu__list-item + .menu__list-item {
   margin-left: 35px;
+}
+/* <section class="about"> */
+.small__container {
+  max-width: 942px;
+  padding: 0px 5px;
+  margin: 0 auto;
+}
+.about {
+  margin: 0 auto;
+  padding-top: 57px;
+  padding-bottom: 100px;
+}
+.about__inner {
+  text-align: center;
+  margin-left: 20px;
+}
+.about__title {
+  text-align: center;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #48555B;
+  letter-spacing: 2.3px;
+  position: relative;
+}
+.about__title::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #00a4e5;
+  bottom: -10px;
+  left: 35px;
+}
+.about__box-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+
+}
+.about__text-title {
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #48555B;
+  letter-spacing: 0.2px;
+}
+.about__text-title span {
+  color: #16ACE8;
+}
+.about__text-discription {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #48555B;
+  letter-spacing: 0.2px;
+}
+.about__text-box {
+  text-align: left;
+  margin-right: 57px;
+  padding-right: 10px;
+}
+.about__contant-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__contant-item {
+  position: relative;
+}
+.about__contant-item img {
+  width: 140px;
+  height: 244px;
+}
+.about__contant-item + .about__contant-item {
+  margin-left: 10px;
+}
+.contant__item-title {
+  text-align: left;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  letter-spacing: 0.2px;
 }
