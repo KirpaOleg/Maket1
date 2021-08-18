@@ -280,4 +280,88 @@ ul {
   color: #48555B;
   letter-spacing: 0.2px;
 }
-
+/* section class="contact" */
+.contact {
+  margin: 0 auto;
+}
+.contact__inner {
+  background-image: url("../images/section3-4/bg1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  padding-bottom: 231px;
+}
+.contact__titel {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;;
+  color: #48555B;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.contact__btn {
+  background-color: #00A4E5;
+  padding: 11px 26px;
+  width: 150px;
+  height: 40px;
+  margin: 0 auto;
+}
+.contact__btn a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #fff;
+}
+.newsletter__inner {
+  background-color: #171819;
+  padding: 0px 30px;
+}
+.newsletter__inner-box {
+  max-width: 685px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+.newsletter__titel {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;;
+  letter-spacing: 0.85px;
+  text-align: center;
+  color: #fff;
+}
+.newsletter__form input {
+  width: 250px;
+  height: 40px;
+  border: 1px solid #979797;
+  padding: 0px 16px;
+}
+.newsletter__form input::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;;
+  letter-spacing: 0.07px;
+  color: #48555B;
+}
+.newsletter__form button {
+  background-color: #00A4E5;
+  width: 150px;
+  height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;;
+  letter-spacing: 0.07px;
+  color: #48555B;
+  padding-top: 0px;
+}
