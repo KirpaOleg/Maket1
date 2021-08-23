@@ -14,6 +14,8 @@ a {
 }
 ul {
   list-style: none;
+  margin: 0px;
+  padding: 0px; 
 }
 .container {
   max-width: 1440px;
@@ -364,4 +366,79 @@ ul {
   letter-spacing: 0.07px;
   color: #48555B;
   padding-top: 0px;
+}
+/* footer class="footer" */
+.footer {
+  margin: 0 auto;
+  color: #f80808;
+}
+.footer__main-inner {
+  background-color: #141A20; 
+  padding: 42px 0px 40px;
+}
+.footer__main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 930px;
+  margin: 0 auto;
+  padding-right: 25px;
+}
+.footer__company {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.85px;
+  max-width: 250px;
+  margin-right: 71px;
+}
+.footer__company-title {
+  margin-bottom: 19px;
+}
+.menu__logo {
+  margin-bottom: 16px;
+}
+.footer__links {
+  margin-right: 71px;
+}
+.footer__links a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 0.085px;
+  color:#fff;
+}
+.footer__links-lists {  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+} 
+.footer__links-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.85px;
+  margin-bottom: 10px;
+}
+.footer__links-fag {
+  margin-left: 34px;
+}
+.footer__links-blog {
+  margin-left: 38px;
+}
+.footer__contact {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.85px;
+}
+.footer__company-inner {
+  text-align: center;
+  background-color: #171819;
+  padding: 22px 0px 23px;
+
 }
